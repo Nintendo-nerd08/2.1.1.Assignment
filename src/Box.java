@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Box<T> {
+    private T item;
 
-public class Box {
+    public void setItem(T item) {
+        this.item = item;
+    }
+
+    public T getItem() {
+        return item;
+    }
 }
